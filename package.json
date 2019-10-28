@@ -1,0 +1,43 @@
+{
+  "name": "jordan-does-web-testing-on-cobalt-intelligence",
+  "version": "1.0.0",
+  "description": "Jordan uses puppeteer to do web testing on cobaltintelligence.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --timeout 30000 -r ts-node/register src/test/**/*.spec.ts --exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aarmora/jordan-does-web-testing-on-cobalt-intelligence.git"
+  },
+  "keywords": [
+    "puppeteer",
+    "javascript",
+    "typescript",
+    "testing",
+    "web",
+    "testing",
+    "integretion",
+    "testing"
+  ],
+  "author": "Jordan Hansen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aarmora/jordan-does-web-testing-on-cobalt-intelligence/issues"
+  },
+  "homepage": "https://github.com/aarmora/jordan-does-web-testing-on-cobalt-intelligence#readme",
+  "devDependencies": {
+    "@types/chai": "^4.2.4",
+    "@types/mocha": "^5.2.7",
+    "@types/node": "^12.11.7",
+    "@types/puppeteer": "^1.20.2",
+    "chai": "^4.2.0",
+    "mocha": "^6.2.2",
+    "ts-node": "^8.4.1",
+    "typescript": "^3.6.4"
+  },
+  "dependencies": {
+    "puppeteer": "^2.0.0",
+    "puppeteer-firefox": "^0.5.0"
+  }
+}
