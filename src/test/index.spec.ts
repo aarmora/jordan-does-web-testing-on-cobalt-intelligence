@@ -30,6 +30,7 @@ describe('Cobalt Intelligence', async () => {
             expect(tabs.length).to.equal(4);
             await context.close();
         });
+        
 
         it('should have a hamburger menu with a smaller view port', async () => {
             const context = await browser.createIncognitoBrowserContext();
