@@ -3,17 +3,6 @@ import { fail } from 'assert';
 import puppeteer, { Browser, Page, ElementHandle } from 'puppeteer';
 
 
-// describe('Cobalt Intelligence', async () => {
-// 	const browser = await puppeteer.launch({ headless: false });
-// 	let page: Page = await browser.newPage();
-
-// 	it('should do something', () => {
-
-// 	});
-// });
-
-
-
 describe('addition()', () => {
 	it('should add both numbers together', () => {
 		const sum = addition(1, 3);
